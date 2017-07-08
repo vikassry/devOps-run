@@ -10,7 +10,6 @@ jdk:
 jobs:
   include:
     - stage: build
-      jdk: oraclejdk8
       script: ./gradlew build
 
     - stage: deploy
