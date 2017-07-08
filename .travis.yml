@@ -7,12 +7,4 @@ branches:
 jdk:
   - oraclejdk8
 
-jobs:
-  include:
-    - stage: build
-      jdk: oraclejdk8
-      script: ./gradlew build
-
-    - stage: test
-      jdk: oraclejdk8
-      script: ./gradlew test
+script: ./gradlew build
