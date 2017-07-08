@@ -14,3 +14,7 @@ jobs:
 
     - stage: deploy
       script: sh deploy.sh
+
+cache:
+  - $HOME/.cache/pip
+  - oraclejdk8
