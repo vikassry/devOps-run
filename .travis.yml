@@ -1,3 +1,8 @@
 language: java
 
-./gradlew build
+script: ./gradlew build
+
+branches:
+  only:
+  - master
+
