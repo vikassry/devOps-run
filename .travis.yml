@@ -12,3 +12,6 @@ jobs:
     - stage: build
       jdk: oraclejdk8
       script: ./gradlew build
+
+    - stage: deploy
+      script: sh deploy.sh
