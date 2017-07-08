@@ -39,3 +39,11 @@ dependencies {
     // end::actuator[]
     testCompile("junit:junit")
 }
+
+distributions {
+    main {
+        contents {
+            from file("./Procfile")
+        }
+    }
+}
