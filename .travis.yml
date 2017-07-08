@@ -6,3 +6,6 @@ branches:
   only:
   - master
 
+
+jdk:
+  - oraclejdk8
