@@ -8,7 +8,7 @@ public class HelloControllerTest {
     @Test
     public void HelloControllerReturnHelloOnIndex() {
         HelloController helloController = new HelloController();
-        assertEquals("Hello World!", helloController.index());
+        assertEquals("Hello World! from spring boot", helloController.index());
     }
 
     @Test
